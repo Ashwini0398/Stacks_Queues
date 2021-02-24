@@ -118,7 +118,8 @@ public class MyLinkedListTest {
         Assert.assertTrue(result);
     }
     @Test
-    public void given4NumbersWhenDeletingMiddleShouldPassResult() {
+    public void given4NumbersWhenDeletingMiddleShouldPassResult()
+    {
         MyNode<Integer> myFirstNode = new MyNode<>(56);
         MyNode<Integer> mySecondNode = new MyNode<>(30);
         MyNode<Integer> myThirdNode = new MyNode<>(40);

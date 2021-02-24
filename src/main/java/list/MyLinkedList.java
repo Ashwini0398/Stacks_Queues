@@ -1,6 +1,7 @@
 package list;
 
-public class MyLinkedList<K> {
+public class MyLinkedList<K>
+{
     public INode head;
     public INode tail;
 
